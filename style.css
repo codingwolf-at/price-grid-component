@@ -17,6 +17,37 @@ body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     background-color: var(--secondary-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.div {
+    padding: 1rem;
+}
+
+.div-one {
+    background-color: white;
+}
+
+.div-one h3 {
+    color: var(--primary-cyan);
+}
+
+.div-one h5 {
+    color: var(--primary-yellow);
+}
+
+.div-one p {
+    color: var(--primary-cyan);
 }
 
 /* .attribution { font-size: 11px; text-align: center; }
