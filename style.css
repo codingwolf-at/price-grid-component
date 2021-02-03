@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
     height: 100vh;
 }
 
@@ -27,8 +28,8 @@ body {
     width: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    max-width: 560px;
+    grid-template-rows: 200px 250px;
+    max-width: 600px;
 }
 
 .div {
@@ -60,11 +61,18 @@ body {
 .div-two {
     background-color: var(--primary-cyan);
     color: white;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.div-two .price-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .div-two .price {
     font-size: xx-large;
     font-weight: bold;
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
     
 }
 
@@ -75,10 +83,13 @@ body {
 
 .div-two p {
     opacity: 0.8;
+
 }
 
 .div-two button {
-    padding: 0.8rem 5.5rem;
+    padding: 0.8rem;
+    width: 90%;
+    margin: 1.5rem auto 0rem auto;
     color: white;
     background-color: var(--primary-yellow);
     border: none;
@@ -86,16 +97,24 @@ body {
     border-radius: 0.4rem;
 }
 
+.div-two button:focus {
+    outline: none;
+}
+
 /* lower row column two */
 .div-three  {
     color: white;
     background-color: var(--secondary-blue);
+    border-bottom-right-radius:  0.5rem;
 }
 
 .div-three p {
     opacity: 0.5;
     font-size: small;
+    margin: 2rem 0rem 0rem 0rem;
+    line-height: 1.5;
 }
+
 
 
 
