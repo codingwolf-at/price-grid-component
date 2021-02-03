@@ -31,9 +31,10 @@ body {
 }
 
 .div {
-    padding: 1rem;
+    padding: 2rem;
 }
 
+/* upper row */
 .div-one {
     background-color: white;
 }
@@ -42,13 +43,45 @@ body {
     color: var(--primary-cyan);
 }
 
-.div-one h5 {
+.div-one h4 {
     color: var(--primary-yellow);
 }
 
 .div-one p {
     color: var(--primary-cyan);
 }
+
+/* lower row column one */
+.div-two {
+    background-color: var(--primary-cyan);
+    color: white;
+}
+
+.div-two .price {
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.div-two .price-text {
+    opacity: 0.5;
+    font-size: small;
+}
+
+.div-two p {
+    color: var(--secondary-grey);
+}
+
+.div-two button {
+    padding: 0.8rem 5.5rem;
+    color: white;
+    background-color: var(--primary-yellow);
+    border: none;
+    font-family: inherit;
+    border-radius: 0.4rem;
+}
+
+
 
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
