@@ -69,7 +69,7 @@ body {
 }
 
 .div-two p {
-    color: var(--secondary-grey);
+    opacity: 0.8;
 }
 
 .div-two button {
@@ -79,6 +79,17 @@ body {
     border: none;
     font-family: inherit;
     border-radius: 0.4rem;
+}
+
+/* lower row column two */
+.div-three  {
+    color: white;
+    background-color: var(--secondary-blue);
+}
+
+.div-three p {
+    opacity: 0.5;
+    font-size: small;
 }
 
 
