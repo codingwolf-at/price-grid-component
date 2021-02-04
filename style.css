@@ -142,6 +142,7 @@ body {
         background-color: white;
         border-top-left-radius: 0.5rem;
         border-top-right-radius: 0.5rem;
+        grid-column: 1/2;
     }
     
     .div-one h3 {
@@ -210,6 +211,7 @@ body {
         color: white;
         background-color: var(--secondary-blue);
         border-bottom-right-radius:  0.5rem;
+        border-bottom-left-radius:  0.5rem;
     }
     
     .div-three p {
